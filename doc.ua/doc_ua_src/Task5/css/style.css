@@ -1,0 +1,97 @@
+/*Common properties (background, images, button, text)*/
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Tahoma, Arial, sans-serif;
+    font-size: 16px;
+}
+body {
+    background: #ccc;
+}
+.all{
+    width: 640px;
+    margin: 40px auto;
+    background: #fff;
+}
+p{
+     display: block;
+     text-align: left;
+     margin: 25px auto;
+     line-height: 22px;
+ }
+img{
+      width: 100%;
+  }
+button{
+    display: block;
+    margin: auto;
+    height: 40px;
+    border-radius: 5px;
+    background: #c66;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    position: absolute;
+    bottom: 0;
+}
+/*Header-img. propeties*/
+.header{
+    width: 640px;
+    height: 150px;
+}
+/*First word properties*/
+.friends{
+     text-align: center;
+    margin: 10px auto;
+ }
+/*Discounted offers properties*/
+.wrap-all, .wrap-bottom{
+    width: 538px;
+    min-height: 100px;
+    background: #fff;
+    padding: 51px 51px 30px;
+}
+.wrap-bottom{
+    width: 568px;
+    padding: 0;
+    margin: 10px -14px;
+}
+.gynecologist, .stomat{
+    float: left;
+    width: 256px;
+    margin: 10px auto;
+    height: 350px;
+    position: relative;
+}
+.stomat{
+    float: right;
+}
+.gyneco, .cardio, .neuro{
+     width: 160px;
+     height: 376px;
+     margin: 14px;
+     float: left;
+     position: relative;
+ }
+.enroll-top{
+    width: 256px;
+}
+.enroll-bottom{
+    width: 160px;
+}
+.clearfix{
+    clear: both;
+}
+/*Final button + under footer message properties*/
+#final-button{
+     width: 540px;
+     position: inherit;
+     margin-top: 50px;
+ }
+.under-footer p, .last-href{
+    color: #fff;
+    text-align: center;
+    font-size: 12px;
+    margin: auto;
+    line-height: 20px;
+}

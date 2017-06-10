@@ -1,0 +1,35 @@
+*{
+	border: 1px solid black;
+}
+body, .clear, html{
+	border: none;
+}
+.fullwrap {
+	width: 460px;
+	padding: 12px;
+	margin: 20px auto;
+}
+.header {
+	min-height: 60px;
+}
+.wrap {
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.main {
+	width: 250px;
+	min-height: 293px;
+	float: left;
+}
+.sidebar {
+	width: 160px;
+	min-height: 293px;
+	float: right;
+}
+.clear {
+	clear: both;
+}
+.footer {
+	min-height: 100px;
+}
