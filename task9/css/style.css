@@ -1,3 +1,4 @@
+/*Common properties*/
 .blue-world{
     width: 560px;
     height: 446px;
@@ -8,6 +9,7 @@
 .cloud, .ship, .water, .world{
     position: absolute;
 }
+/*Images positions*/
 .cloud{
     width: 60%;
     right: 0;
