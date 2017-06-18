@@ -22,17 +22,21 @@ p{
 img{
       width: 100%;
   }
-button{
-    display: block;
+.button-enroll-bottom, .button-enroll-top, #final-button{
     margin: auto;
     height: 40px;
     border-radius: 5px;
     background: #c66;
     border: none;
-    color: #fff;
     font-weight: bold;
     position: absolute;
     bottom: 0;
+    text-align: center;
+    line-height: 38px;
+}
+.button-enroll-top a, .button-enroll-bottom a, #final-button a{
+    text-decoration: none;
+    color: #fff;
 }
 /*Header-img. propeties*/
 .header{
@@ -73,10 +77,10 @@ button{
      float: left;
      position: relative;
  }
-.enroll-top{
+.button-enroll-top{
     width: 256px;
 }
-.enroll-bottom{
+.button-enroll-bottom{
     width: 160px;
 }
 .clearfix{
